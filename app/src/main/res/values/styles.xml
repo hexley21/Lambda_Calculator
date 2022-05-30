@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="checkedTextViewStyle">@style/MaterialAlertDialog.App.Body.Text</item>
+    </style>
+    <style name="MaterialAlertDialog.App.Body.Text" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textAppearance">@style/DialogTextAppearance</item>
+    </style>
+    <style name="DialogTextAppearance" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
